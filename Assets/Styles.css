@@ -54,6 +54,10 @@ a {
     text-decoration: none;
 }
 
+div {
+    display: flex;
+}
+
 aside {
     display: flex;
     flex-direction: column;
@@ -73,21 +77,40 @@ h3 {
     padding-bottom: 4px;
 }
 
-p {
+.pA {
     font-family: 'Raleway';
-    font-size: 14px;
-    color: white; 
+    font-size: 14px; 
     margin-top: 20px;
     text-align: justify;
     margin-left: 20px;
     margin-bottom: 3px;
     text-indent: 20px;
+    color: white;
 }
 
-ul {
+.ulA {
     font-family: 'Raleway';
-    font-size: 14px;
-    color: white; 
+    font-size: 14px; 
     margin-top: 10px;
+    color: white;
 }
 
+main {
+    width: 78%;
+    padding-top: 41px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid;
+}
+
+h4 {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+.pM {
+    font-family: 'Raleway';
+    text-indent: 10px;
+}
