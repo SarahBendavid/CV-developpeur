@@ -16,7 +16,7 @@ header {
     padding-bottom: 25px;
 }
 
-Img {
+.photo {
     width: 160px;
     height: 180px;
     border-radius: 50%;
@@ -113,4 +113,19 @@ h4 {
 .pM {
     font-family: 'Raleway';
     text-indent: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #782221 ;
+    height: 80px;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 30px;
+    height:40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
