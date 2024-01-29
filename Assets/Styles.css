@@ -16,7 +16,7 @@ header {
     padding-bottom: 25px;
 }
 
-Img {
+.photo {
     width: 160px;
     height: 180px;
     border-radius: 50%;
@@ -54,6 +54,15 @@ a {
     text-decoration: none;
 }
 
+a:hover
+{
+text-decoration: underline;
+}
+
+div {
+    display: flex;
+}
+
 aside {
     display: flex;
     flex-direction: column;
@@ -73,21 +82,56 @@ h3 {
     padding-bottom: 4px;
 }
 
-p {
+.pA {
     font-family: 'Raleway';
-    font-size: 14px;
-    color: white; 
+    font-size: 14px; 
     margin-top: 20px;
     text-align: justify;
     margin-left: 20px;
     margin-bottom: 3px;
     text-indent: 20px;
+    color: white;
 }
 
-ul {
+.ulA {
     font-family: 'Raleway';
-    font-size: 14px;
-    color: white; 
+    font-size: 14px; 
     margin-top: 10px;
+    color: white;
+}
+
+main {
+    width: 78%;
+    padding-top: 41px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid;
+}
+
+h4 {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+.pM {
+    font-family: 'Raleway';
+    text-indent: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #782221 ;
+    height: 80px;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 30px;
+    height:40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
