@@ -54,6 +54,11 @@ a {
     text-decoration: none;
 }
 
+a:hover
+{
+text-decoration: underline;
+}
+
 div {
     display: flex;
 }
@@ -129,3 +134,4 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
 }
+
