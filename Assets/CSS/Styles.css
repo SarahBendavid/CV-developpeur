@@ -13,12 +13,12 @@ header {
     align-items: center;
     width: 100%;
     background-color: #782221 ;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .photo {
-    width: 160px;
-    height: 180px;
+    width: 145px;
+    height: 160px;
     border-radius: 50%;
     margin-top: 65px;
     margin-bottom: 25px;
@@ -28,6 +28,7 @@ header {
 h1 {
     font-family: 'Lato';
     color: white;
+    margin-bottom: 8px;
 }
 
 h2 {
@@ -66,7 +67,7 @@ div {
 aside {
     display: flex;
     flex-direction: column;
-    width: 22%;
+    width: 26%;
     background-color: #782221 ;
     padding-top: 40px;
     padding-right: 30px;
@@ -82,27 +83,29 @@ h3 {
     padding-bottom: 4px;
 }
 
-.pA {
+.aside__p {
     font-family: 'Raleway';
     font-size: 14px; 
+    color: white;
     margin-top: 20px;
     text-align: justify;
     margin-left: 20px;
     margin-bottom: 3px;
     text-indent: 20px;
-    color: white;
+    line-height:20px;
 }
 
-.ulA {
+.aside__ul {
     font-family: 'Raleway';
     font-size: 14px; 
     margin-top: 10px;
     color: white;
+    line-height:22px;
 }
 
 main {
     width: 78%;
-    padding-top: 41px;
+    padding-top: 38px;
     padding-left: 20px;
     padding-right: 20px;
     border: solid;
@@ -115,9 +118,17 @@ h4 {
     text-indent: 10px;
 }
 
-.pM {
+.main__p {
     font-family: 'Raleway';
     text-indent: 10px;
+}
+
+.main__ul {
+    font-family: 'Raleway';
+    font-size: 14px; 
+    margin-top: 10px;
+    margin-left: -10px;
+    line-height: 20px;
 }
 
 footer {
